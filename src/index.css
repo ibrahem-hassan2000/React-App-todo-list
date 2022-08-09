@@ -18,7 +18,7 @@ code {
 .App {
   text-align: center;
   text-align: center;
-  width: 51%;
+  width: 700px;
   margin: 10% auto;
 }
 .App p {
@@ -83,4 +83,9 @@ form input[type="submit"] {
 }
 .item .icon:hover {
   color: red;
+}
+@media (max-width: 400px) {
+  .App {
+    width: 100%;
+  }
 }
